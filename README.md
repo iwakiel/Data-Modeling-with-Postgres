@@ -45,7 +45,8 @@ timestamps in queries.
 |---|---|
 | `sql_queries.py` | All DDL + DML in one reviewable place |
 | `create_tables.py` | Drops and recreates the schema (reset script) |
-| `etl.ipynb` / `etl.py` | Pipeline development notebook and final script |
+| `etl.py` | The pipeline: song files → dims, log files → time/users/fact |
+| `etl.ipynb` | Development notebook the pipeline was built in |
 | `test.ipynb` | Sanity queries against the loaded warehouse |
 | `data/` | Sample JSON song and log datasets |
 
